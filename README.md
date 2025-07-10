@@ -1,12 +1,95 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 TaskTracker (This is a simple beginner react{ single page } application)
 
-Currently, two official plugins are available:
+A simple and clean task-tracking app built with **React + Vite**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add, delete, and manage your daily tasks with ease!
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🆕 Add new tasks
+- 🗑️ Delete individual tasks
+- 🔄 Delete all tasks at once
+- ⚡ Built with React + Vite for blazing-fast performance
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/GoulaVineethKumarReddy/TaskTracker.git
+cd TaskTracker
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 🛠 Tech Stack
+
+* React
+* Vite
+* JavaScript (ES6+)
+* HTML/CSS
+
+---
+
+## 📁 Folder Structure
+
+```
+TaskTracker/
+├── src/
+│   ├── components/
+│   │   ├── AddTask.jsx
+│   │   ├── TaskList.jsx
+│   │   └── Task.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 📄 License
+
+MIT © [Goula Vineeth Kumar Reddy](https://github.com/GoulaVineethKumarReddy)
+
+````
+
+---
+
+## 🧠 How to Apply the New README:
+
+1. Open your `README.md` file in VS Code
+2. **Delete all the Vite-generated content**
+3. Paste the new content above
+4. Save the file
+
+---
+
+### 📤 Then commit and push:
+
+```bash
+git add README.md
+git commit -m "Updated README.md with project details"
+git push
+````
